@@ -44,6 +44,11 @@
 		line-height: 2em;
 	}
 
+    p.caps {
+        font-variant: small-caps;
+        line-height: 1.8em;
+    }
+
 	h1, h2, h3, h4, h5, h6 {
 		margin: 0;
 		padding: 0;
@@ -319,7 +324,7 @@
 
 	ol.default {
 		list-style: decimal;
-		padding-left: 1.25em;
+		padding-left: 2em;
 	}
 
 		ol.default li {
@@ -740,9 +745,9 @@
 			@media screen and (max-width: 980px) {
 
 				#contact .column {
-					padding: 2em 0 0.1em 0;
-					padding-left: 2em;
-					padding-right: 2em;
+					padding: 4em 0em 0.1em 0em;
+					padding-left: 3em;
+					padding-right: 3em;
                     text-align: center;
 				}
 
@@ -830,7 +835,6 @@
 		padding: 3em 2em;
 		background: #FFF;
 		text-align: center;
-        height: 550px;
 		border-radius: 0px 0px 6px 6px;
 	}
 
