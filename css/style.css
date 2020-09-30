@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,500,600,700,800,900");
+@import url("http://fonts.googleapis.com/css?family=Nunito:100,200,300,500,600,700,800,900");
 
 /*
 	Phase Shift by TEMPLATED
@@ -48,7 +49,7 @@
 		margin: 0;
 		padding: 0;
 		color: inherit;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Nunito',serif;
 		font-weight: 700;
 	}
 
@@ -676,6 +677,7 @@
 		text-align: center;
 		color: #FFF;
 		padding: 0em 4em;
+        margin-top: 2em;
 		margin-bottom: 1em;
 	}
 
@@ -848,24 +850,24 @@
 	}
 
 	#logo-header h2 {
-        margin-top: 2.5em;
+        margin-top: 1em;
         margin-bottom: 0em;
         font-size: 1.6em;
 		display: inline-block;
         line-height: 1.2em;
         text-align: center;
-        padding: 0em 3em 0.8em 3em;
+        padding: 0em 1em 0.8em 1em;
         border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 	}
 
 	#logo-header h3 {
         margin-top: 2.5em;
-        margin-bottom: 2em;
+        margin-bottom: 2.5em;
         font-size: 1.6em;
 		display: inline-block;
         line-height: 1.2em;
         text-align: center;
-        padding: 0em 3em 0.8em 3em;
+        padding: 0em 1em 0.8em 1em;
         border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 	}
 
