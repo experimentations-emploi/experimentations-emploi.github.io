@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,500,600,700,800,900");
+@import url("//fonts.googleapis.com/css?family=Raleway:100,200,300,500,600,700,800,900");
 
 /*
 	Phase Shift by TEMPLATED
@@ -830,6 +830,7 @@
 		padding: 3em 2em;
 		background: #FFF;
 		text-align: center;
+        height: 550px;
 		border-radius: 0px 0px 6px 6px;
 	}
 
