@@ -15,7 +15,7 @@
 
 	body, span, input, select, textarea {
 		color: #555555;
-		font-family: 'Raleway', serif;
+		font-family: 'Raleway', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -48,7 +48,7 @@
 		margin: 0;
 		padding: 0;
 		color: inherit;
-		font-family: 'Montserrat',sans-serif;
+		font-family: 'Raleway',sans-serif;
 		font-weight: 700;
 	}
 
