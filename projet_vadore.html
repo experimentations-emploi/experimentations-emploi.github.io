@@ -70,17 +70,17 @@
                             <header class="major">
                                 <div class = "info">
                                     <h2>Construire un système de recommandation d'offres d'emploi et de candidats en apprenant sur les embauches durables passées</h2>
+                                    <h3>Projet VADORE (Valorisation des DOnnées pour la Recherche d'Emploi)</h3>
                                     <br>
                                     <span class="byline">
-                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Philippe Caillou</a>, 
-                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Bruno Crépon</a>, 
-                                    <a class="sites" href="https://sites.google.com/site/dylanglover/home">Marco Cuturi</a>, 
-                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Gwendoline De Bie</a>, 
-                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Christophe Gaillac</a>, 
-                                    <a class="sites" href="https://www.linkedin.com/in/eliaprns/">Elia Pérennès</a>, 
-                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Michèle Sébag</a></span>
+                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Guillaume Bied (LISN-CREST)</a>, 
+                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Philippe Caillou (LISN)</a>, 
+                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Bruno Crépon (CREST)</a>, 
+                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Christophe Gaillac (CREST)</a>, 
+                                    <a class="sites" href="https://www.linkedin.com/in/eliaprns/">Elia Pérennès (CREST-Pôle emploi)</a>, 
+                                    <a class="sites" href="https://sites.google.com/site/brunocrepon/home">Michèle Sébag (LISN)</a></span>
                                 </div>
-                                <div class = "img"><img src = "images/pic02.jpg" style = "width: 100%; height: auto;"> </div>
+                                
                             </header>
                             
                             
@@ -89,61 +89,189 @@
                             <br>
                 
                             <p>
-                                Le marché du travail est un système complexe dans lequel plusieurs parties ont des objectifs différents. Les demandeurs d'emploi souhaitent trouver un emploi en adéquation avec certains critères, qui peuvent varier en fonction de leurs compétences, de leur localisation, de leur situation familiale, etc. Les recruteurs cherchent quant à eux le meilleur candidat pour des postes vacants en se basant notamment sur l’expérience, les compétences et la personnalité. Parallèlement, Pôle emploi a pour objectif de maximiser le nombre d'appariements durables entre recruteurs et demandeurs d'emploi. L'idée centrale de ce projet est de mobiliser les données massives dont dispose Pôle emploi pour construire un système de recommandation d'offres d'emploi et de candidats dans le but final d'améliorer l'appariement des demandeurs d'emploi et des emplois vacants. 
+                                Le marché du travail est un système complexe au sein duquel plusieurs parties aux objectifs différents se rencontrent. D’un côté, les demandeurs d'emploi souhaitent trouver un emploi en adéquation avec certains critères qui leur sont propres et qui peuvent varier en fonction de leurs compétences, de leur localisation, de leur situation familiale, etc. Les recruteurs cherchent quant à eux le meilleur candidat pour des postes vacants en se basant notamment sur l’expérience et les compétences des demandeurs d’emploi. En parallèle, Pôle emploi a pour objectif de maximiser le nombre d'appariements durables entre recruteurs et demandeurs d'emploi. 
+                                
+                                <br>
+
+                                Dans ce contexte, l'usage d'outils algorithmiques de rapprochement d'offres et de demandes d'emploi est porteur de promesses d'amélioration du fonctionnement du marché du travail. Cependant, des menaces liées à la mise à l’échelle de ce type d'outil existent également. La validation empirique par le biais d’expériences randomisées et contrôlées permet d'apporter des réponses à ces interrogations.
+                                
+                                <br>
+
+                                L'idée centrale de ce projet est de mobiliser l'ensemble des informations sur les demandeurs d'emploi et les entreprises dont dispose Pôle emploi, parmi lesquelles certaines (les données textuelles notamment) sont encore inexploitées, ceci afin de construire un système de rapprochement qui permette d’améliorer le fonctionnement global de l’appariement entre emplois vacants et demandeurs d'emploi. 
+                                
                             </p>
                         
                             <p style = "text-align: center; color:#1C5669;">   
                                 <b>
-                                Peut-on mobiliser les données très riches et longitudinales disponibles à Pôle Emploi pour concevoir des outils d’appariement sur le marché du travail ? Comment la mise à disposition de ces outils affecte les comportements de recherche et le retour à l’emploi / l’appariement ? Lorsqu’ils sont déployés à l’echelle d’un marché, quels sont les impacts ?</b>
+                                Peut-on mobiliser les données disponibles à Pôle emploi pour concevoir des outils visant à améliorer l’appariement sur le marché du travail ? Comment la mise à disposition de ces outils affecte-t-elle les comportements de recherche des DE et des recruteurs ainsi que le retour à l’emploi et le pourvoi des offres ? Lorsqu'un système de recommandation est déployé à l’échelle d’un marché, quel est l’impact global sur le processus d'appariement entre DE et recruteurs ?</b>
                                 
                             </p>
                             <br>
 				            <h2>Cadre et objectifs</h2>
                             <br>
+                            
+                       
+                            <p>Le CREST, le LISN et Pôle emploi ont construit trois fonctionnalités visant à améliorer l'appariement sur le marché du travail : un système de recommandation d'offres d'emploi et de CVs, ce même système augmenté d'une fonctionnalité visant à limiter le risque de congestion sur le marché du travail, et enfin une carte interactive de l'emploi. <b>L'objectif de ce projet est d'étudier les propriétés de ces fonctionnalités <i>"in the Lab"</i>, puis d'étudier <i>"in the Field"</i> l'impact de la mise à disposition de celles-ci sur le marché du travail.</b></p>
+                                
+                            
+                            <p style = "padding-left: 2em;margin-top: -1em;"><b>1ère fonctionnalité.</b> Le CREST, le LISN et Pôle emploi ont construit un système de recommandation capable d'identifier, lister et ordonner des offres d'emplois susceptibles de mener à l'embauche d'un demandeur d'emploi, et symétriquement des CVs pertinents pour une offre d'emploi donnée. Ce système, appelé "algorithme VADORE" (pour VAlorisation des DOnnées pour la REcherche d'Emploi), est basé sur un modèle de deep learning correspondant à l'état de l'art, reposant sur les historiques d'embauches et sur des modèles de proximité entre demandeurs, offres et entreprises. Il repose sur un très grand nombre de variables, dont, côté demandeur d'emploi : l'historique en chômage, les caractéristiques sociodémographiques, le CV et les logs web sur Pôle-emploi.fr ; côté entreprises : historique d'embauches et toutes les variables contenues dans les offres d'emploi publiées sur Pôle-emploi.fr ; côté appariements : les candidatures effectuées et les embauches passées des demandeurs d'emploi sur les offres d'emploi.
+                            <br> Ce projet est aussi l'occasion de comparer les prédictions et l'impact  économique de l'algorithme VADORE aux prédictions et à l'impact économique du Système de Rapprochement (SDR) actuellement en place à Pôle emploi. Les deux algorithmes ont un fonctionnement bien différent, car le SDR ne repose pas sur une stratégie d'apprentissage automatique. Il prend en entrée l'emploi recherché du demandeur d’emploi (métier, salaire, type de contrat, zone géographique, horaires) ainsi que ses compétences (dont le permis et les langues parlées). Il compare ensuite ces caractéristiques à celles requises dans les offres d'emploi. Il attribue alors à chaque offre d'emploi un score d'appariement avec le demandeur d’emploi : plus ce score est élevé, plus l'offre d'emploi correspond à ce que cherche le demandeur d’emploi et à ce qu'il sait faire. L’algorithme associe à chaque critère un poids fixe, figeant ainsi l’importance relative de ces critères. </p>
+                                
+                            
+                            <p style = "padding-left: 2em; margin-top: -1em;"><b>2ème fonctionnalité.</b> Une des menaces associée à la mise à l’échelle d’un système de recommandation sur le marché du travail est celle de la présence d’effets d’éviction : faire bénéficier certains demandeurs d’emploi ou recruteurs de recommandations peut s'effectuer au détriment des autres. Cela peut se produire si certains types de demandeurs d'emploi ou d'offres d'emploi ne sont jamais représentés dans les items recommandés. Une autre menace, découlant de la première, est celle de la congestion. La congestion sur le marché du travail se traduit par la concentration d’un grand nombre de demandeurs d’emploi sur quelques offres et vice-versa. Ce phénomène d'encombrement peut être exacerbé par un système de recommandation si le même demandeur d'emploi est recommandé à beaucoup de recruteurs, ou de manière symétrique si la même offre d'emploi est recommandée à une multitude de demandeurs d'emploi. 
+                            <br> 
+                            Ainsi, la seconde fonctionnalité conçue par le CREST, le LISN et Pôle emploi consiste à appliquer aux prédictions de l'algorithme VADORE une stratégie de régularisation et d’optimisation de l’appariement basée sur le transport optimal. Le but du transport optimal est de générer, à partir des scores d'appariement prédits par l'algorithme VADORE, un plan de transport qui distribue les candidatures sur les offres d'emploi. Cet algorithme VADORE augmenté est appelé <i>algorithme CAROT</i>, pour <i>"Congestion-Avoiding Recommendation with Optimal Transport".</i></p>
+
+                                
+                            <p style = "padding-left: 2em; margin-top: -1em;"><b>3ème fonctionnalité. </b>Enfin, une troisième fonctionnalité a été mise au point dans le cadre de ce projet. Il s'agit d'une carte interactive de l'emploi, permettant aux demandeurs d'emploi et aux recruteurs de visualiser de manière agrégée les offres et demandes d'emploi dans un bassin géographique et répondant à une requête donnée. L'originalité de cette fonctionnalité est de permettre aux utilisateurs d'accéder au paysage global en fonction de leur requête et de voir comment le paysage se modifie en fonction des modifications éventuelles de la requête, leur permettant de faire non seulement des choix mais aussi des demandes de manière mieux informée. 
+                            </p>
+                            
+                            
+
+                            <h2>Grandes étapes du projet</h2>
+                            <br>
+                            
+                            <h3 style = "color:#1C5669;">"In the Lab" : Etude des propriétés de l'algorithme VADORE avant l'implémentation sur le terrain</h3>
+                            
+                        <br> 
+                        
                             <p>
+                        
+                            Avant l'implémentation des algorithmes VADORE et CAROT sur le terrain, nous examinons leurs propriétés <i>"in the Lab"</i>. Pour ce faire, nous post-traitons les prédictions de l'algorithme VADORE afin d'associer à chaque couple offre-demandeur d'emploi une "probabilité d'appariement". Nous comparons tout d'abord l'algorithme VADORE avec le SDR utilisé par Pôle emploi, qui lui est basé sur un score mesurant la " proximité " entre le profil ou les préférences du demandeur d'emploi et les caractéristiques de l'offre (cf. paragraphe Cadre et objectifs). Nous discutons l'arbitrage entre la probabilité d'appariement et le score de préférence lors du passage d'un système à l'autre. Nous examinons également la question de la congestion sur le marché du travail. Nous montrons d'une part que l'algorithme VADORE tend à exacerber la congestion et d'autre part que cela réduit fortement sa performance économique. Nous montrons enfin que l'utilisation du transport optimal, via l'algorithme CAROT, permet d'atténuer ce problème de manière significative. A ce stade, la principale leçon est qu'un algorithme ignorant les préférences des demandeurs d'emploi et la concurrence sur le marché du travail aurait des performances économiques très limitées, mais que le fait d'adapter l'algorithme à ces dimensions améliore considérablement les performances, du moins <i>"in the Lab"</i>.
+                            
+                        <p style = "padding-left: 2em;margin-top: -2em;">
+                                
+                                &#x2794; Document de travail disponible <a href = "https://drive.google.com/file/d/1M-ocWoF3IeUhuIWtx2TWjLbCa1b_6Ykd/view">ici</a>. </p>
 
-                            Le projet s'appuie sur la mobilisation de l'ensemble considérable des informations sur les demandeurs d'emploi et les entreprises dont dispose Pôle emploi, parmi lesquelles certaines (les données textuelles notamment) sont encore inexploitées. Ces informations seront ensuite retraitées pour élaborer deux fonctionnalités, de nature technique et d'inspiration économique différentes, les évaluer et les comparer rigoureusement.
-
+                        </p>
+                        
+                        <br>
+                        
+                            <h3 style = "color:#1C5669;">"In the Field" : Etude de l'impact de la mise à disposition de recommandations algorithmiques sur le marché du travail</h3>
+                        
+                           <br> 
+                            
+                            <h3>Phase pilote : Janvier - Septembre 2021 </h3>
+                            
+                       
+                            
+                            <p>Avant d’exposer un grand nombre de demandeurs d'emploi et de recruteurs aux recommandations calculées par le système VADORE, il est nécessaire de recueillir les avis des futurs usagers sur l’utilité d’un système de recommandation, sur la pertinence des recommandations calculées et sur la manière de leur communiquer. C'est l'objectif de la phase pilote.</p>
+                                
+                               
+                                
+                            <p style = "padding-left: 2em;margin-top: -2em;"> &#x2794;  Deux focus groups réunissant des demandeurs d'emploi et un focus group réunissant des recruteurs ont eu lieu en février 2021 afin de recueillir des avis qualitatifs détaillés concernant l'utilité d'un algorithme de recommandation à Pôle emploi, la pertinence des recommandations, leur présentation et leur mode de communication. 
                             </p>
+                                                            
                                 
-                                <h3>Recommandations</h3>
+                            <p style = "padding-left: 2em;margin-top: -2em;"> &#x2794; La phase pilote consiste également à mettre en oeuvre un beta-test de notre algorithme afin de vérifier sa pertinence et de recueillir des retours permettant de l'améliorer. Les beta-testeurs (demandeurs d'emploi et recruteurs) reçoivent de notre part une courte liste d'aperçus d'offres / profils de candidats. Nous leur demandons ensuite leur avis (sous la forme d'une note allant de 1 à 5) sur chacune de ces recommandations. Ceci permet de mieux prendre en compte les préférences individuelles et d'identifier les recommandations qui sont les moins pertinentes aux yeux des utilisateurs pour les éliminer.
                                 
-                            <p>La première fonctionnalité consiste à émettre des recommandations formalisées à destination tant des demandeurs d'emploi (sur des offres d'emploi où candidater) que des entreprises (sur les candidats à inviter en interview de recrutement). 
-                                
-                            <br>
-                                
-                            Pour ce faire, il s'agira de créer, à partir des données que nous aurons pu regrouper et formater, un système de recommandation capable d'identifier, lister et ordonner des offres d'emplois susceptibles de mener à l'embauche d'un demandeur d'emploi, et symétriquement les CVs pertinents pour une offre d'emploi donnée. Nous nous attacherons dans un premier temps à appliquer des modèles de recommandation simples, de type co-embedding filtering, reposant sur des historiques d'appariement, et des modèles de proximité entre demandeurs, offres et entreprises. Afin d'utiliser ces techniques intuitives (si un demandeur partage beaucoup de caractéristiques avec un autre demandeur, et que ce dernier a été embauché par une entreprise pour une certaine offre, quelle autre entreprise, ou autre offre, similaire à cette dernière, pourrions nous lui proposer?).  Dans ce contexte, il sera capital d'apprendre des ``plongements'' capables d'encoder efficacement ces proximités de compétence. Ils seront dans un premier temps appris en utilisant essentiellement les données dont dispose Pôle emploi (données sociodémographiques, paramètres de recherche d'emploi, historique en chômage, offres d'emploi déposées dans le passé, flux d'embauches passés), et tout spécialement des données textuelles représentées sous la forme de vecteurs via des ``word embeddings''.  Nous apprendrons alors, à la fois pour les demandeurs, les offres et les entreprises, une transformation linéaire (voire neuronale multi-couches) corrélée avec des statistiques de co-occurrence (embauche). Selon les résultats obtenus, nous serons peut être confrontés à la sur-représentation de certaines offres ou profils dans nos prédictions. Afin de ne pas aboutir à cette forme de saturation dans notre recommandation, nous mettrons en place des stratégies de régularisation et d'optimisation d'appariement qui permettront d'ajouter de la diversité dans ces recommandations. </p>
-                            
-                                <h3>Carte située de l'emploi</h3>
-                                
-                            <p>La seconde fonctionnalité consiste à mettre à la disposition des demandeurs et des entreprises une carte interactive de l'emploi, leur permettant de visualiser de manière agrégée les offres et demandes d'emploi dans un bassin géographique et répondant à une requête donnée. L'originalité de cette fonctionnalité est de permettre aux utilisateurs d'accéder au paysage global en fonction de leur requête et de voir comment le paysage se modifie en fonction des modifications éventuelles de la requête, leur permettant de faire non seulement des choix mais aussi des demandes de manière mieux informée. Les difficultés sont de trois natures.
-
-                            En premier lieu, un score d'adéquation doit être défini. Ce score s'appuiera sur la fonctionnalité de recommandation développée au jalon précédent, i.e. il devra être possible de consulter la carte en utilisant son CV ou son offre d'emploi en guise de sac de mots. Le score devra naturellement être adapté pour pouvoir prendre en compte des requêtes courtes. 
-
-                            En second lieu, la carte doit permettre de distinguer deux cas différents par rapport à une requête : celui d'un grand nombre d'items en faible adéquation avec la requête, et celui d'un nombre restreint d'items en forte adéquation avec la requête. 
-
-                            En troisième lieu, les interactions avec la carte doivent être monitorées et exploitées: le capital immatériel d'une plateforme est formé en grande partie des traces d'usage. Par exemple, la succession des requêtes d'un utilisateur pourra fournir des informations nouvelles sur la porosité entre les compétences et les adaptations envisageables/fructueuses en terme de contenu des emplois.
-
                             </p>
                             
+                            
+                            
+                            <h3>Phase 1 : Octobre 2021 - Février 2022</h3>
+                            <p>La première phase de la validation empirique du projet a pour objectif de mesurer l'impact de la mise à disposition de recommandations algorithmiques sur le comportement de recherche des demandeurs d'emploi et des recruteurs. Cette étape permet également d'étudier comment la façon de présenter les recommandations influence l'impact de celles-ci. La méthodologie utilisée dans cette première phase consiste à mettre en place une expérience randomisée et contrôlée dans laquelle on fait bénéficier un ensemble d'entreprises et un ensemble de demandeurs des recommandations issues du système VADORE. Pour cette expérimentation, nous adoptons un design expérimental en deux étapes :</p>
+                            
+                            <p style = "padding-left: 2em;margin-top: -2em;">
+                                - Dans un premier temps, les micro-marchés du travail (définis comme l'intersection entre une profession spécifique et une zone géographique) sont attribués de manière aléatoire à 4 cohortes différentes. </p>
+                            
+                            <p style = "padding-left: 2em;margin-top: -2em;">
+                                - Dans un deuxième temps, au sein de chacune de ces 4 cohortes, les utilisateurs (demandeurs d'emploi et entreprises ayant soumis des offres d'emploi) sont affectés de manière aléatoire à 4 groupes de traitement différents : </p>
+                            
+                            <p style = "padding-left: 4em;margin-top: -2em;">
+                                - 1% des utilisateurs de chaque micro-marché reçoivent par e-mail 5 recommandations émanant du SDR.  </p>
+                            <p style = "padding-left: 4em;margin-top: -2em;">
+                                - 1% des utilisateurs de chaque micro-marché reçoivent une invitation par e-mail à visiter et à utiliser le moteur de recherche d'emplois et de CV de Pôle-emploi.fr.  </p>
+                            <p style = "padding-left: 4em;margin-top: -2em;">
+                                - 1% des utilisateurs de chaque micro-marché reçoivent par e-mail 5 recommandations émanant du système VADORE. </p>
+                            
+                            <p style = "padding-left: 4em;margin-top: -2em; font-style: italic;">
+                                (NB : les emails envoyés aux groupes SDR et VADORE ont la même présentation : 5 recommandations sont incluses ; si l'utilisateur clique sur un élément recommandé dans l'email, il est renvoyé vers la page web correspondante sur le site de Pôle emploi. ) </p>
+                            
+                            <p style = "padding-left: 4em;margin-top: -2em;">
+                                - 1% des utilisateurs de chaque micro-marché reçoivent par e-mail 5 recommandations émanant du système VADORE. Des informations complémentaires sont ensuite ajoutées aux recommandations, qui varient en fonction de la cohorte : </p>
+                            
+                             <p style = "padding-left: 6em;margin-top: -2em;">
+                                - Par exemple, dans une des 4 cohortes, les utilisateurs du 4ème groupe de traitement ne sont exposés à aucune information supplémentaire. La seule différence avec le groupe de traitement 3 sera la présence de 10 recommandations au lieu de 5.  </p>
+                            
+                            <p style = "padding-left: 6em;margin-top: -2em;">
+                                - Dans une autre des 4 cohortes, les utilisateurs du 4ème groupe de traitement seront exposés à des informations supplémentaires concernant l'adéquation entre leur recherche et les recommandations. Nous ajoutons par exemple aux offres envoyées aux demandeurs d'emploi un tag disant "cette offre correspond à 3/5 de vos critères de recherche".  </p>
+                            
+                            <p style = "padding-left: 4em;margin-top: -2em;">
+                                - Enfin, dans chaque micro-marché de chaque cohorte, les 96\% d'utilisateurs restants ne seront exposés à aucune intervention. </p>
+                            
+                            
+                            
+                            <h3>Phase 2 : Second semestre 2022</h3>
+                            
+                            <p>
+                            La deuxième validation empirique du projet permet d'évaluer la présence et l'impact sur le marché du travail de ce que l'on appelle les effets d'équilibre. Il s'agit des effets qui sont engendrés par le passage à l'échelle des programmes publics, qui est le moment où la grande majorité des individus éligibles au programme deviennent utilisateurs de celui-ci (contrairement au cadre des expériences randomisées où seule une part marginale de la population bénéficie du programme). Il s'agit d'une phase cruciale de l'expérimentation. Elle ne sera néanmoins mise en oeuvre qu'après avoir tiré tous les enseignements de la première phase. Le contenu et la forme que prendront les recommandations s'appuiera en particulier sur les résultats de la première phase. Cette section est une ébauche et pourra être discuté en détail. Elle pose néanmoins des questions essentielles sur l'impact de la mise en oeuvre d'un système de recommandations. 
 
-                            <h2>Détails de l'intervention</h2>
-                            <br>
+                            Cette deuxième validation empirique sera également l'occasion de tester si l'algorithme CAROT permet de limiter le risque de congestion. 
+                                
+                            <br> 
+                            Pour évaluer la taille et les effets de deux menaces décrites ci-dessus, nous effectuerons une validation empirique dans laquelle l'essai randomisé et contrôlé sera réalisé en tirant au hasard des micro-marchés et non plus des demandeurs ou des entreprises.
                             
                             
-                            <p>La validation empirique du projet se fera à deux niveaux. Le premier consiste à faire un A/B testing dans lequel on fait bénéficier un ensemble d'entreprises et un ensemble de demandeurs des recommandations. Il s’agit de l’approche la plus classique et la plus rigoureuse pour évaluer l’impact d’un système de recommandation : deux variantes d’un site web ou d’un email sont présentées aux utilisateurs, l’une utilisant l’algorithme de recommandation testé, l’autre étant une version de contrôle, et l’on mesure l’écart de résultat entre les deux variantes selon des indicateurs prédéfinis : du côté des recommandations faites aux demandeurs, on s’intéressera principalement au retour à l’emploi (un indicateur pourra être le nombre de jours passés en travail) ; du côté des recommandations faites aux recruteurs, on pourra s’intéresser au nombre de jours de travail supplémentaires. Nous nous intéressons également à l'impact des fonctionnalités sur les differentes reactions comportementales d’appropriation des informations par les agents (modifications des anticipations, deschoix de mise en relations, de l’activité de recherche d’emploi).
-                            
-                            <br>
-                            
-                            La deuxième validation empirique consiste à prendre en compte l'existence de potentiels effets de déplacement et d'équilibre: faire bénéficier certains de recommandations peut s'effectuer au détriment des autres. Pour prendre en compte cette possibilité on effectuera une validation empirique dans laquelle le A/B testing sera effectué en tirant au hasard des micro-marchés et non plus des demandeurs ou des entreprises. Il sera alors possible d'examiner l'impact sur le nombre agrégés de jours de travails supplémentaires ainsi que sur les distribution des revenus et des embauches au niveau des micro-marchés. 
                             </p>
+                        
+                        <p style = "padding-left: 2em;margin-top: -2em;"> - 1/3 des micro-marchés seront alloués au groupe CAROT. La totalité des demandeurs d'emploi et des recruteurs dans ces micro-marchés seront exposés aux recommandations issues du système VADORE augmenté du transport optimal.</p>
+                        
+                        <p style = "padding-left: 2em;margin-top: -2em;"> - 1/3 des micro-marchés seront alloués au groupe VADORE. La totalité des demandeurs d'emploi et des recruteurs dans ces micro-marchés seront exposés aux recommandations issues du système VADORE reposant uniquement sur le Machine Learning, tel qu'il a été utilisé lors de la phase 1. 
+                            
                     
-                            <p>De la comparaison de l'impact des deux modes d'accès à l'information (recommandations et carte) sont attendus des résultats extrêmement informatifs sur la manière dont les acteurs appréhendent la complexité du marché du travail et comment ils y réagissent. In fine, la question concerne la stratégie de capacitation la plus efficace pour mettre les agents en mesure d'atteindre les buts désirés. </p>
+                        <p style = "padding-left: 2em;margin-top: -2em;"> - Le tiers restant ne subira aucune intervention particulière mais fera partie du périmètre de l'expérience et sera observé de la même manière que les deux autres groupes.</p>
+                        
+                        <p style = "padding-left: 2em;margin-top: -2em; font-style: italic;"> NB : Nous ferons en sorte qu'il n'y ait pas d'inter-connexion entre les micro-marchés des différents groupes : les individus composant les micro-marchés d'un groupe ne devront pas communiquer (physiquement ou virtuellement) avec les individus des micros-marchés des autres groupes, ceci afin d'éviter les phénomènes de contagion qui pourraient remettre en cause l'hypothèse clé de ``Stable Unit Treatment Values Assumption'' (SUTVA). Nous pourrons par exemple nous assurer que les micro-marchés des différents groupes soient significativement éloignés géographiquement. </p>
+                        
+                        <p style = "padding-left: 2em;margin-top: -2em;">
+                        Les groupes CAROT et VADORE recevront par email une liste ordonnée de recommandations personnalisées. La présentation et la description des recommandations communiquées aux groupes CAROT et VADORE ne varieront pas comme dans la phase 1. Les individus de ces groupes seront exposés aux recommandations de la manière la plus efficace selon ce que les résultats de la phase 1 nous auront enseignés.</p>
+                    
+                           
 
                             <h2>Résultats et conclusions</h2>
                             <br>
+                        <h3>Analyse des données expérimentales de la Phase 1</h3>
                             <p>
-                                Projet en cours, résultats à venir.</p>
+                            Nous nous intéresserons à l’écart de résultat entre les différents groupes selon des indicateurs principalement comportementaux. Afin de mesurer l'efficacité du système VADORE à fournir des recommandations pertinentes pour les utilisateurs, nous nous baserons sur les clics sur les items recommandés et sur les éventuelles mises en contact qui s'en suivent. Ensuite, afin d'évaluer les effets comportementaux de la mise à disposition de recommandations algorithmiques apprises grâce aux embauches passées, nous nous intéresserons à des indicateurs relatifs au comportement de recherche des agents, en particulier sur internet. Nous étudierons donc le comportement web (connexions, clics, mises en contact) des utilisateurs sur une durée prolongée après l'envoi des recommandations. Enfin, nous pourrons analyser l'impact de nos traitements sur le temps de retour à l'emploi des demandeurs d'emploi et sur le délai de pourvoi des offres du côté des recruteurs.
+                            
+                            <br> 
+                            
+                            Notre design expérimental nous permettra d'avoir une idée de la valeur ajoutée pour les utilisateurs de recommandations algorithmiques apprises sur les embauches passées, i.e. des recommandations issues du système VADORE.  Il nous permettra également d'estimer l'impact (potentiellement non négligeable) de l'envoi d'un email provenant de Pôle emploi (pour rappel, cet email sera une invitation à utiliser le moteur de recherche d'offres et de CV utilisé sur pole-emploi.fr). Au moment où nous analyserons l'impact de la mise à disposition des recommandations VADORE, nous pourrons ainsi démêler l'effet pur des recommandations VADORE du simple effet de l'envoi d'un email. Notre design expérimental nous permettra enfin d'identifier les informations complémentaires qui sont les plus déterminantes dans le fait de cliquer sur un item recommandé et qui ont le plus d'impact sur les comportements de recherche.
+                                
+                            <br>
+                            <br> 
+                                
+                                
+                            Résultats à venir début 2022.</p>
+                        
+                        <h3>Analyse des données expérimentales de la Phase 2</h3>
+                        
+                        <p>
+                        Nous nous intéresserons à des variables de résultat définies au niveau du micro-marché. Dans un premier temps, afin de mesurer l'ampleur de la congestion sur les micro-marchés de l'expérimentation, plusieurs indicateurs seront utilisés : 
+                        
+                        
+                        <p style = "padding-left: 2em;margin-top: -2em;"> - Indicateurs de risque de congestion, calculés ``hors-ligne'' :</p>
+      
+                        <p style = "padding-left: 4em;margin-top: -2em;"> - On pourra analyser la distribution des ``parts de marché'' de chaque demandeur d'emploi dans la recommandation de CV aux recruteurs et de chaque recruteur dans la recommandation d'offres d'emploi aux demandeurs. Par exemple, si on recommande 10 offres d'emploi à des demandeurs d'emploi, la part de marché d'une offre d'emploi sera définie comme la part des demandeurs d'emploi ayant reçu une recommandation de cette offre. Si la distribution des parts de marché est uniforme, alors il n'y a pas de risque de congestion ; en revanche, si certaines offres d'emploi ont une grosse part de marché alors que certaines en ont une quasi nulle, alors il y a un risque élevé de congestion. 
+                        </p>
+                        <p style = "padding-left: 4em;margin-top: -2em;"> - Un second indicateur intéressant pour mesurer le risque de congestion est le taux de couverture des offres et des demandeurs d'emploi dans les recommandations. Cet indicateur est défini comme la part des items recommandés à au moins un utilisateur.</p>
+                        
+        <p style = "padding-left: 4em;margin-top: -2em;"> - Enfin, un dernier indicateur utile sera la courbe de Lorenz, qui est la représentation graphique de la fonction de répartition qui associé à chaque fractile <i>x</i> des items qui peuvent être recommandés la part <i>y</i> des occurrences dans l'ensemble des recommandations faites. L'écart entre cette courbe et la droite à 45 degrés du graphique nous donne une idée de l'ampleur du risque de congestion, la droite à 45 degrés représentant l'égalité parfaite. </p>
+        
+        <p style = "padding-left: 2em;margin-top: -2em;"> - Indicateurs de congestion empiriques/sur le terrain : 
+        
+            <p style = "padding-left: 4em;margin-top: -2em;"> - On pourra examiner la distribution du nombre de candidatures par offre ainsi que la distribution du nombre de mises en contact en provenance des recruteurs par demandeur d'emploi, en normalisant chaque indicateur par le nombre d'utilisateurs concurrents sur le marché. </p>
+       
+<p style = "margin-top: -2em;">
+L'écart mesuré en termes d'indicateurs de congestion entre les micro-marchés du groupe CAROT et du groupe VADORE nous renseignera sur la capacité de CAROT à réduire (ou pas) la congestion par rapport à VADORE. 
+    
+Au delà de la différence en termes de congestion entre CAROT et VADORE, nous nous intéresserons au dynamisme et à la qualité du processus global d'appariement sur ces deux marchés. Du côté des demandeurs d'emploi, nous calculerons le temps moyen de retour à l'emploi et le nombre de demandeurs d'emploi retournés à l'emploi à différents intervalles de temps. Nous calculerons des indicateurs symétriques du côté des recruteurs : délai moyen de pourvoi d'une offre et nombre d'offres pourvues. La qualité des appariements effectifs pourra être évaluée à travers les rangs moyens respectifs de chaque partie du contrat (demandeur ou recruteur) dans le classement des recommandations faites à l'autre partie ainsi qu'à travers les types de contrat de travail utilisés et la durée moyenne de ceux-ci. 
+    
+    <br>
+
+L'écart de résultat entre le groupe CAROT et le groupe VADORE nous renseignera sur l'effet de la prise en compte de la congestion sur le nombre et la qualité des appariements. L'écart de résultat entre le groupe CAROT et le groupe de contrôle pur nous renseignera sur l'impact global de la mise à l'échelle de VADORE augmenté du transport optimal. Enfin l'écart de résultat entre le groupe VADORE et le groupe de contrôle pur nous renseignera sur l'impact global de la mise à l'échelle de la version de VADORE ne prenant pas en compte le risque de congestion. Il est probable que l'on observe que la réduction de la congestion permise par CAROT se traduise également par une amélioration du processus de recrutement par rapport aux micro-marchés dans lesquels VADORE est implémenté. 
+                        </p>
                             
                             
 						</section>
